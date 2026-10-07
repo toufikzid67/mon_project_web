@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ma liste de tâches</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Ma liste de tâches</h1>
+    <p id="compteur" class="compteur"></p>
+
+    <form id="formulaire">
+      <input type="text" id="champ" placeholder="Nouvelle tâche" required>
+      <button type="submit">Ajouter</button>
+    </form>
+
+    <ul id="liste"></ul>
+    <p id="vide" class="vide">Aucune tâche. Ajoutez la première ci-dessus.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
